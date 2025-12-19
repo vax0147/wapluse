@@ -22,6 +22,6 @@
 # This proxies frontend requests from /api to your Render backend
 [[redirects]] # <--- CHANGE THIS TO DOUBLE BRACKETS
   from = "/api/*"
-  to = "https://pluse-crm.onrender.com/api/:splat"
+  to = "https://plusee-crm.onrender.com/api/:splat"
   status = 200
   force = true
